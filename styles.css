@@ -19,20 +19,16 @@ p {
   font-family: roboto;
 }
 
-header,
-section {
-  padding: 1em;
-}
-
-header {
+.header-image {
   background-color: rgb(0, 136, 181);
-  transform: skewY(-20deg) translateY(-350px);
-  margin-bottom: -250px;
+  transform: skewY(-20deg) translateY(-500px);
   box-shadow: 0px 0px 10px 0px black;
 }
 
-header div {
-  transform: skewY(20deg) translateY(350px);
+.header-image div {
+  padding: 1em;
+  transform: skewY(20deg) translateY(500px);
+  margin-bottom: -400px;
 }
 
 header img {
@@ -42,11 +38,17 @@ header img {
   object-fit: cover;
 }
 
+.header-body {
+  padding: 1em;
+}
+
 header h1 {
   position: absolute;
-  bottom: 2em;
+  bottom: 2.9em;
   text-align: left;
   text-shadow: 1px 5px 7px black;
+  font-size: 3.1em;
+  line-height: 1em;
 }
 
 header h1 {
@@ -54,12 +56,17 @@ header h1 {
   position: relative;
 }
 
-.about-me {
-  margin-top: 20px;
-}
-
 .linkedin {
   width: 1em;
+  height: auto;
+}
+
+section {
+  padding: 1em;
+}
+
+.my-work {
+  margin-top: 50px;
 }
 
 .project {
@@ -141,6 +148,9 @@ footer .logos {
 }
 
 @media (min-width: 601px) {
+  header .logos {
+    display: none;
+  }
 }
 
 @media (min-width: 1201px) {
