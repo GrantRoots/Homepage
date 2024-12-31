@@ -20,7 +20,6 @@ p {
 }
 
 header,
-footer,
 section {
   padding: 1em;
 }
@@ -106,8 +105,16 @@ footer {
   word-wrap: break-word;
 }
 
-footer div {
+.footer-main {
+  padding: 1em;
+}
+
+.footer-lower {
   font-size: 1.5rem;
+}
+
+.email {
+  font-size: 0.8em;
 }
 
 footer h1 {
@@ -116,9 +123,10 @@ footer h1 {
 
 .footer-img {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   object-fit: cover;
-  margin: 0 -1em -1.5em;
+  position: relative;
+  bottom: -25px;
 }
 
 .logos {
