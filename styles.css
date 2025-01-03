@@ -82,7 +82,7 @@ section {
   color: white;
   font-size: 2em;
   font-family: "playfair display";
-  padding: 20px;
+  padding: 40px;
   line-height: 1.2em;
 }
 
@@ -249,6 +249,7 @@ footer .logos {
   .project img {
     font-size: 1.5em;
     height: 4.5em;
+    padding: 30px;
   }
 
   .project div {
@@ -259,6 +260,38 @@ footer .logos {
     justify-content: space-between;
     padding: 1em;
     height: 10px;
+  }
+
+  main {
+    margin-bottom: 100px;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 0.7em;
+    line-height: 1.2em;
+    padding: 40px;
+  }
+
+  .footer-main {
+    padding: 10px;
+  }
+
+  footer h1 {
+    text-align: left;
+    font-weight: 100;
+    margin-bottom: 30px;
+  }
+
+  .footer-img {
+    height: 100%;
+    bottom: 0px;
+  }
+
+  footer .logos {
+    justify-content: flex-start;
+    gap: 30px;
   }
 }
 
