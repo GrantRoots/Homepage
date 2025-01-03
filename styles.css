@@ -77,7 +77,37 @@ section {
 }
 
 .project img {
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  font-size: 2em;
+  font-family: "playfair display";
+  padding: 20px;
+  line-height: 1.2em;
+}
+
+.one img {
   background-color: aqua;
+}
+
+.two img {
+  background-color: rgb(234, 234, 32);
+}
+
+.three img {
+  background-color: red;
+}
+
+.four img {
+  background-color: orange;
+}
+
+.five img {
+  background-color: green;
+}
+
+.six img {
+  background-color: purple;
 }
 
 .project h4 {
@@ -165,7 +195,7 @@ footer .logos {
     position: relative;
     font-size: 2em;
     text-align: right;
-    bottom: 300px;
+    bottom: 350px;
   }
 
   .tablet-background {
@@ -200,6 +230,35 @@ footer .logos {
   .header-body p {
     font-size: 0.75em;
     color: rgb(91, 91, 91);
+  }
+
+  .my-work {
+    display: grid;
+    grid-template-rows: 2em 15em 15em 15em;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5vw;
+  }
+
+  .my-work h1 {
+    grid-column: 1 / 3;
+    text-align: left;
+    font-weight: 10;
+    font-size: 1.3em;
+  }
+
+  .project img {
+    font-size: 1.5em;
+    height: 4.5em;
+  }
+
+  .project div {
+    font-size: 0.8em;
+  }
+
+  .project-header {
+    justify-content: space-between;
+    padding: 1em;
+    height: 10px;
   }
 }
 
