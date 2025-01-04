@@ -80,10 +80,11 @@ section {
   text-align: center;
   vertical-align: middle;
   color: white;
-  font-size: 2em;
+  font-size: 3rem;
   font-family: "playfair display";
-  padding: 25px;
+  padding: 0.7rem;
   line-height: 1.2em;
+  word-wrap: break-word;
 }
 
 .one img {
@@ -119,6 +120,7 @@ section {
   align-items: center;
   justify-content: space-around;
   font-size: 0.9em;
+  text-wrap: wrap;
 }
 
 .project-logos {
