@@ -355,5 +355,13 @@ footer .logos {
 
   .my-work {
     margin-top: 200px;
+    grid-template-rows: 2em 15em 15em;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5vw;
+  }
+
+  .my-work h1 {
+    grid-row: 1 / 2;
+    grid-column: 1 / 4;
   }
 }
