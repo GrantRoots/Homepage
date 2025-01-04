@@ -364,4 +364,14 @@ footer .logos {
     grid-row: 1 / 2;
     grid-column: 1 / 4;
   }
+
+  footer {
+    grid-template-columns: 1fr 1.5fr;
+    padding: 90px;
+    font-size: 2rem;
+  }
+
+  .footer-img {
+    height: 100%;
+  }
 }
